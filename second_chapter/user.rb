@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 =begin
-Задание 2, глава 2 
+Задание 2, глава 2
 =end
 
 class User
@@ -24,6 +24,6 @@ end
 # Создаем экземпляр/объект класса
 denis = User.new
 
-# Методы экземпляра
+# Вызываем методы экземпляра с аргументами
 denis.fio("Denis", "Latypov")
 denis.profession("Rails-React developer")
